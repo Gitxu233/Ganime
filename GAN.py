@@ -124,7 +124,7 @@ class DCGAND(nn.Module):
 
 class GanData():
     def __init__(self):
-        self.dataset_dir = 'C:/Users/Zhang/Desktop/pytorch-fcn/GAN/anime'
+        self.dataset_dir = './anime'
         os.chdir(self.dataset_dir)
         self.img_name = os.listdir()
 

@@ -13,8 +13,8 @@ D = DCGAND()
 G = DCGANG()
 
 start_epoch = 298
-D_path = r"C:/Users/Zhang/Desktop/pytorch-fcn/GAN/model/D" + str(start_epoch) + ".pt"
-G_path = r"C:/Users/Zhang/Desktop/pytorch-fcn/GAN/model/G" + str(start_epoch) + ".pt"
+D_path = r"./model/D" + str(start_epoch) + ".pt"
+G_path = r"./model/G" + str(start_epoch) + ".pt"
 D.load_state_dict(torch.load(D_path))
 G.load_state_dict(torch.load(G_path))
 if cuda:

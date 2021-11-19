@@ -38,7 +38,7 @@ show = False
 save = True
 start_epoch = 49
 num_epoch = 300
-rootPath = "C:/Users/Zhang/Desktop/pytorch-fcn/GAN/"
+rootPath = "./"
 D_path = rootPath + "model/D" + str(start_epoch) + ".pt"
 G_path = rootPath + "model/G" + str(start_epoch) + ".pt"
 
